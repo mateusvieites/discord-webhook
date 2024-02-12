@@ -1,0 +1,25 @@
+{
+  "author": "Mateus Vieites (Nirin)",
+  "name": "discord-webhook",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "description": "send discord webhooks",
+  "license": "MIT",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "discord",
+    "webhook" 
+   ],
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {},
+  "scripts": {
+    "run": "yarn tsc && node build index.js",
+    "watch": "tsc -w"
+  }
+}
